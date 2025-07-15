@@ -33,14 +33,14 @@ public class Main {
         }
     }
 
-    private static boolean checkDraw(int attemp) {
-        if (attemp == 10) {
-            System.out.println("DRAWWW !!!!!");
-            return false;
-        } else {
-            return true;
-        }
-    }
+    // private static boolean checkDraw(int attemp) {
+    //     if (attemp == 10) {
+    //         System.out.println("DRAWWW !!!!!");
+    //         return false;
+    //     } else {
+    //         return true;
+    //     }
+    // }
 
     // method for changing players and shape of char (X --> O)
     private static char getShape(int attemp) {
